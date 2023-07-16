@@ -1,35 +1,41 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
-  },
-  {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
-  },
-  {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/personalized-ai-2.png',
+    title: 'Personalized AI Development',
+    description: "Harness the power of AI customized to your business needs.Our expert team develops AI algorithms that are tuned to your unique goals, helping your organization transform data into actionable insights. Unlock the potential of your business with our personalized AI solutions."
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/data-driven-meeting.png',
+    title: 'Data-Driven Business Strategy',
+    description: ""
   },
   {
+    id: 'world-2',
+    imgUrl: '/consulting.png',
+    title: 'Data Engineering Consultation',
+    description: ""
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/fullstack-development.png',
+    title: 'Full Stack AI Implementation',
+    description: ""
+  },
+ 
+  {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/ai-powered automation-services.jpeg',
+    title: 'AI-Powered Automation Services',
+    description: ""
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Understand Your Business Needs',
+  'Implement Tailored AI Solutions',
+  'Drive Growth & Efficiency',
 ];
 
 export const newFeatures = [

@@ -15,24 +15,9 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        <motion.span variants={textVariant(1.1)} className={styles.heroHeading}>
           DaZa Limited
-        </motion.h1>
-
-        <motion.div
-          variants={textVariant(1.1)}
-          className="flex flex-row justify-center items-center"
-        >
-          <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>aZa</h1>
-        </motion.div>
-       
-        <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
-        >
-          <h1 className={styles.heroHeading}>Limited</h1>   
-        </motion.div>
+        </motion.span>
       </div>
 
       <motion.div
@@ -44,7 +29,7 @@ const Hero = () => (
         <img
           src="/innovation_tech.png"
           alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          className="w-full sm:h-[700px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
         <a href="#explore">

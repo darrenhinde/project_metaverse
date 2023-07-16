@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TypingText } from '../components';
+import { brandVars } from './general/global_info';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -16,25 +17,35 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
-
+      <TypingText title={`|About ${brandVars.name} `} textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className="font-extrabold text-white">
-          madness of the metaverse
-        </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        <span className="font-extrabold text-white"></span>
+         We are driven by a mission to make data accessible, understandable,
+         and actionable for businesses of all sizes. 
+         Our goal is to bridge the gap between raw data and meaningful insights, 
+         enabling businesses to make 
+         {' '}
+         <span className="font-extrabold text-white">smarter decisions, </span>
+         {' '} 
+         faster.
+         
+          We understood early on that data isn't just about numbers;
+           it's about the stories those numbers tell, the insights they provide,
+            and the power they offer to transform businesses.
+         <div></div>
+         
+          By bringing the latest technology and best data practices to our clients, 
+          we aim to revolutionize the way businesses operate, one byte at a time.
+          <div></div>
+          In everything we do, we're committed to transparency, integrity, 
+          and the highest standards of professional service. 
+          Because 
+          {' '}
+          <span className="font-extrabold text-white">when you succeed, we succeed.</span>
+           {' '}
       </motion.p>
 
       <motion.img
