@@ -9,26 +9,26 @@ export const exploreWorlds = [
     id: 'world-4',
     imgUrl: '/data-driven-meeting.png',
     title: 'Data-Driven Business Strategy',
-    description: ""
+    description: "Our team helps you uncover hidden patterns, predict future trends, and identify business opportunities using data analysis and AI"
   },
   {
     id: 'world-2',
     imgUrl: '/consulting.png',
     title: 'Data Engineering Consultation',
-    description: ""
+    description: "We help you structure, store, and analyze your data to derive optimal insights and facilitate smart decision-making."
   },
   {
     id: 'world-3',
     imgUrl: '/fullstack-development.png',
     title: 'Full Stack AI Implementation',
-    description: ""
+    description: "Experience the ease and efficiency of a full-stack AI solution"
   },
  
   {
     id: 'world-5',
     imgUrl: '/ai-powered automation-services.jpeg',
     title: 'AI-Powered Automation Services',
-    description: ""
+    description: "Our services help automate repetitive tasks in your business processes, freeing up valuable time for your team to focus on strategic tasks"
   },
 ];
 
