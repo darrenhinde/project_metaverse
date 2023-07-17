@@ -1,9 +1,14 @@
+export const brandVars = {
+  name: 'Daza Limited',
+  metatag: 'Daza Limited',
+}
+
 export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/personalized-ai-2.png',
     title: 'Personalized AI Development',
-    description: "Harness the power of AI customized to your business needs.Our expert team develops AI algorithms that are tuned to your unique goals, helping your organization transform data into actionable insights. Unlock the potential of your business with our personalized AI solutions."
+    description: "Harness the power of AI customized to your business needs. Unlock the potential of your business with our personalized AI solutions."
   },
   {
     id: 'world-4',

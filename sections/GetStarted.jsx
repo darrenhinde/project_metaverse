@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { brandVars } from './general/global_info';
+import { brandVars } from '../constants';
 import styles from '../styles';
 import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';

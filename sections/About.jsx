@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TypingText } from '../components';
-import { brandVars } from './general/global_info';
+import { brandVars } from '../constants/index.js';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -28,18 +28,15 @@ const About = () => (
          Our goal is to bridge the gap between raw data and meaningful insights, 
          enabling businesses to make 
          {' '}
-         <span className="font-extrabold text-white">smarter decisions, </span>
-         {' '} 
-         faster.
+         <span className="font-extrabold text-white">smarter decisions, faster</span>
+         {'. '} 
+        
          
           We understood early on that data isn't just about numbers;
            it's about the stories those numbers tell, the insights they provide,
-            and the power they offer to transform businesses.
-         <div></div>
-         
+            and the power they offer to transform businesses.      
           By bringing the latest technology and best data practices to our clients, 
           we aim to revolutionize the way businesses operate, one byte at a time.
-          <div></div>
           In everything we do, we're committed to transparency, integrity, 
           and the highest standards of professional service. 
           Because 
